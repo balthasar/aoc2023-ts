@@ -1,5 +1,6 @@
 import type Puzzle from './types/Puzzle';
 import readFile from './utils/readFile';
+import './utils/log';
 
 const args = process.argv.slice(2);
 const dayToSolve = args[0];
