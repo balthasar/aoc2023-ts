@@ -53,7 +53,7 @@ const first = (input: string) => {
   return result;
 };
 
-const expectedFirstSolution = 4361;
+const expectedFirstSolution = 554003;
 
 const second = (input: string) => {
   let result = 0;
@@ -99,6 +99,6 @@ const second = (input: string) => {
   return result;
 };
 
-const expectedSecondSolution = 6756;
+const expectedSecondSolution = 87263515;
 
 export { first, expectedFirstSolution, second, expectedSecondSolution };

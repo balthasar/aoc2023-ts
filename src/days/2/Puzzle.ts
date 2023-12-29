@@ -68,7 +68,7 @@ const first = (input: string) => {
   return result;
 };
 
-const expectedFirstSolution = 8;
+const expectedFirstSolution = 2683;
 
 const second = (input: string) => {
   let max: StringNumDict = {
@@ -98,6 +98,6 @@ const second = (input: string) => {
   return result;
 };
 
-const expectedSecondSolution = 2286;
+const expectedSecondSolution = 49710;
 
 export { first, expectedFirstSolution, second, expectedSecondSolution };
